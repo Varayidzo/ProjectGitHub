@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <style>
+      .form {
+        margin: 30px 0;
+        font-size: 20px;
+      }
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <script>
+        function signUp() {
+          let signUp = prompt("Is this correct?");
+          alert("Hooray!");
+        }
+      </script>
+
+      <label for="email"> Enter your password </label>
+      <input type="text" id="password" required />
+
+      <input type="submit" value="sign up" />
+    </form>
+  </body>
+</html>
